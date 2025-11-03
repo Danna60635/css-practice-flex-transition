@@ -15,11 +15,12 @@ body {
    =========================================== */
 
 .navbar {
-    /* TODO: Add display: flex to make this a flex container */
-    /* TODO: Add justify-content: space-between to space logo and links apart */
-    /* TODO: Add align-items: center to center items vertically */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem 2rem;
     background-color: #333;
+  
 }
 
 .logo {
@@ -29,8 +30,9 @@ body {
 }
 
 .nav-links {
-    /* TODO: Add display: flex to make this a flex container */
-    /* TODO: Add gap property (try 2rem) for spacing between links */
+    display: flex;
+    padding: 2rem;
+    justify-content: flex-start;
     list-style: none;
 }
 
@@ -43,7 +45,7 @@ body {
 }
 
 .nav-links a:hover {
-    /* TODO: Add background-color for hover state */
+    background-color: red;
 }
 
 /* ===========================================
@@ -51,9 +53,9 @@ body {
    =========================================== */
 
 .hero {
-    /* TODO: Add display: flex to make this a flex container */
-    /* TODO: Add justify-content: center to center horizontally */
-    /* TODO: Add align-items: center to center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -82,5 +84,6 @@ body {
 }
 
 .cta-button:hover {
+    background-color: #ff5252;
     /* TODO: Add background-color for hover state (try #ff5252) */
 }
