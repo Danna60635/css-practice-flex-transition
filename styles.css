@@ -41,7 +41,7 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    /* TODO: Add transition property for smooth hover effects */
+    transition: 2s;
 }
 
 .nav-links a:hover {
@@ -80,10 +80,11 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    /* TODO: Add transition property for smooth hover effects */
+    transition: 2.5s;
+    transition: 0.5s;
 }
 
 .cta-button:hover {
-    background-color: #ff5252;
-    /* TODO: Add background-color for hover state (try #ff5252) */
+    background-color: #ffb5b5 ;
 }
+    
